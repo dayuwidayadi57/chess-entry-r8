@@ -1,10 +1,15 @@
 # tiny-chess-01 — round 8 entry
 
-A chess engine in 3,294 bytes of Python (limit: 4,096), for the make.fun
-bounty "Build the strongest chess engine in 4 KB of Python".
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/dayuwidayadi57/chess-entry-r8/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/dayuwidayadi57/chess-entry-r8/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+
+A chess engine in 3,303 bytes of Python (limit: 4,096), for the make.fun
+bounty "Build the strongest chess engine in 4 KB of Python" — see the
+[bounty page](https://make.fun/bounty/tiny-chess-01).
 
 `main.py` is the kit's own packing of `source.py` (the readable engine,
-8,711 bytes): an LZMA stream plus the makefun-compress/v1 stub. Run it with
+8,749 bytes): an LZMA stream plus the makefun-compress/v1 stub. Run it with
 `MAKEFUN_ENV_URL` set and it plays the house gauntlet through the env.
 
 Design (0x88 board, fixed 100,000-node budget per move, no clock):
